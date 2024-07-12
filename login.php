@@ -26,7 +26,7 @@
 
 
 <div class="login-box" style="margin-left: auto; margin-top: 100px;">
-<h2>Login</h2>
+<h2>Inicio de sesión</h2>
 <form action="<?php echo $_SERVER["PHP_SELF"];?>" method = "post">
   
 
@@ -55,11 +55,11 @@
 
     <div class="user-box">
       <input type="text" name="email" required="">
-      <label>Email</label>
+      <label>Correo electrónico</label>
     </div>
     <div class="user-box">
       <input type="password" name="pwd" required="">
-      <label>Password</label>
+      <label>Contraseña</label>
     </div>
     <a>
     <button type="submit" name="submit" style="color: white; font-size: 100%; font-family: inherit; border: none; padding: 0!important; background: none!important; cursor: pointer;">
@@ -67,13 +67,13 @@
       <span></span>
       <span></span>
       <span></span>
-      Login
+      Iniciar seción
     </button>
     </a>
     <br><br>
     <i>
     <div style="color: whitesmoke;">
-      New User? &ensp;<span onclick="location.replace('register.php')" 
+      ¿Nuevo aquí? &ensp;<span onclick="location.replace('register.php')" 
       style="color:yellowgreen; text-decoration:underline; cursor:pointer">Register Here..</span>
     </div>
     </i>
